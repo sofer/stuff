@@ -1,4 +1,4 @@
-# Naming conventions for files
+# Naming conventions for files (and folders)
 
 ### Do not use spaces
 Seriously, don't do it. If you really insist on it, use hyphens or underscores, but don't use spaces. It will make your life very difficult if you do.
