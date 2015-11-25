@@ -1,39 +1,44 @@
 # Currying
 
-[in progress]
+#### Why?
+At the heart of all programming is the idea of [decomposition], where a complex problem is broken down into a series of simple steps. [Method chaining]&mdash;where a series of functions operate on a single object that gets transformed step-by-step as it passes through the function chain&mdash;is a common way of achieving this. The jQuery library uses this technique. *Currying* is a similarly-powerful way of decomposing a problem through chaining, which comes from purely functional languages, where&mdash;unlike in JavaScript&mdash;objects are not used to maintain state.
 
-A curried function is one to which one or more left-most arguments have been applied and a new function has been returned that can take the remaining unapplied arguments and compute the original function with all the required arguments.
+#### What?
+A *curried* function is a function with two or more arguments that has been transformed into a function to which each of the original arguments can be individualy applied successively in a chain to get the same result.
 
-A partially-applied function is a more general case of a curried function where the partially-applied arguments do not have to be at the beginning of the argument list, but can be at arbitrary points in the list.
+    f(a, b, c) -> f'(a)(b)(c)
 
-Partial function application ia a technique that requires a language (like JavaScript) that has closures. The returned (i.e. partially-applied) function encloses over the context where it was called, a context which includes the original already-applied arguments, to which the function can refer whenever it is subsequently called.
+For this to work, the new function `f'` must take a single argument and return a new function that also takes a single argument. 
 
-Partial application is a great technique for abstracting out behaviour, so that it can be applied in different contexts without having to repeat the same code.
+Crucially, the returned function will need to have access to the argument applied to the original function, in order to make use of it in the returned function.
 
-Contexts where partial application might be useful include: creating several different event listeners in the DOM that behave in similar, but not identical, ways...
+*Currying* is a special case of the *partial application* of a function, where some of the arguments of the original function have been applied and a new function has been returned that can take the remaining arguments and compute the original function with all of the required arguments.
+
+### How?
+
+In ES6:
+
+    function curry(f, ...args) {
+      [ to do]
+    }
+
+In ES5
+
+    function curry(f) {
+      [ to do]
+    }
 
 ### See also
-[Closures] |
-
+[Decomposition] | [Closures] | [Chaining]
 
 ## References
-[John Resig on Partial Application in JavaScript](http://ejohn.org/blog/partial-functions-in-javascript/) *
++ [John Resig on Partial Application in JavaScript](http://ejohn.org/blog/partial-functions-in-javascript/) *
++ [currying in JavaScript](https://medium.com/@kbrainwave/currying-in-javascript-ce6da2d324fe#.tbfzd4xib)
++ [A Beginner’s Guide to Currying in Functional JavaScript](http://www.sitepoint.com/currying-in-functional-javascript/)
++ [Currying on Wikipedia](https://en.wikipedia.org/wiki/Currying)
++ [Partial Function Application is not Currying](http://www.uncarved.com/articles/not_currying)
++ [What's the difference between Currying and Partial Application?](http://raganwald.com/2013/03/07/currying-and-partial-application.html)
 
-[How do JavaScript closures work?](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work) *
-
-
-
-
-"Partially applying a function is a, particularly, interesting technique in which you can pre-fill-in arguments to a function before it is ever executed...Filling in the first couple arguments of a function (and returning a new function) is typically called currying. " http://ejohn.org/blog/partial-functions-in-javascript/
-
-
-*"a way of constructing functions that allows partial application of a function’s arguments. What this means is that you can pass all of the arguments a function is expecting and get the result, or pass a subset of those arguments and get a function back that’s waiting for the rest of the arguments...Currying is elemental in languages such as Haskell and Scala, which are built around functional concepts."* 
-
-"coming up with a consistent naming convention for your curried functions will help make your code more readable. Each derived variation of a function should have a name that makes it clear how it behaves, and what arguments it’s expecting."
-
-"Adding currying to your coding practice will encourage the use of partially applied functions throughout your code, avoiding a lot of potential repetition"
-
-http://www.sitepoint.com/currying-in-functional-javascript/
 
 
 
