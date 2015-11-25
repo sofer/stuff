@@ -22,7 +22,7 @@ In ES6:
       [ to do]
     }
 
-In ES5
+In ES5:
 
     function curry(f) {
       [ to do]
@@ -38,6 +38,7 @@ In ES5
 + [Currying on Wikipedia](https://en.wikipedia.org/wiki/Currying)
 + [Partial Function Application is not Currying](http://www.uncarved.com/articles/not_currying)
 + [What's the difference between Currying and Partial Application?](http://raganwald.com/2013/03/07/currying-and-partial-application.html)
++ [ECMAScript 6 and Currying](http://macr.ae/article/es6-and-currying.html)
 
 
 
