@@ -14,8 +14,8 @@ Good examples of ORMs are [bookshelf.js](https://github.com/tgriesser/bookshelf)
 The Ruby on Rails framework famously uses the Active Record ORM. ORMs are widely used, but not everyone likes them. The idea of using a single database-agnostic library that maps nicely to your data models is compelling, but can apparently cause problems with more complex or highly-trafficed applications.
 
 ## References
-[Object-relational mapping](https://en.wikipedia.org/wiki/Object-relational_mapping) in Wikipedia
-[Object-relational impedance mismatch](https://en.wikipedia.org/wiki/Object-relational_impedance_mismatch) in Wikipedia
-[Object Relational Mapping Costs Time And Money](http://c2.com/cgi/wiki?ObjectRelationalMappingCostsTimeAndMoney)
-[Object-Relational Mapping is the Vietnam of Computer Science](http://blog.codinghorror.com/object-relational-mapping-is-the-vietnam-of-computer-science/)
++ [Object-relational mapping](https://en.wikipedia.org/wiki/Object-relational_mapping) in Wikipedia
++ [Object-relational impedance mismatch](https://en.wikipedia.org/wiki/Object-relational_impedance_mismatch) in Wikipedia
++ [Object Relational Mapping Costs Time And Money](http://c2.com/cgi/wiki?ObjectRelationalMappingCostsTimeAndMoney)
++ [Object-Relational Mapping is the Vietnam of Computer Science](http://blog.codinghorror.com/object-relational-mapping-is-the-vietnam-of-computer-science/)
 [OrmHate](http://martinfowler.com/bliki/OrmHate.html)
