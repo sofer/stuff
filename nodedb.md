@@ -11,8 +11,11 @@ Good examples of client libraries are the [Redis client for Node.js](https://git
 An object-relational mapper is a single library that allows an application to access a database often without having to worry too much about which database is actually being used, without having to care about database-specific commands, and without using SQL. 
 Good examples of ORMs are [bookshelf.js](https://github.com/tgriesser/bookshelf), [Sequalize](https://github.com/sequelize/sequelize), [Waterline](https://github.com/sequelize/sequelize )and [Mongoose](https://github.com/Automattic/mongoose). Some ORMs, like Waterline work with many different databases and some, like Mongoose, work with just one.
 
-The Ruby on Rails framework famously uses the Active Record ORM and some of the Node.js ORMs are inspired by it. ORMs are widely used, but controversial. The idea of using a single database-agnostic library that maps nicely to your data models is compelling, but has been known to cause problems with more complex or highly-trafficed applications.
+The Ruby on Rails framework famously uses the Active Record ORM. ORMs are widely used, but not everyone likes them. The idea of using a single database-agnostic library that maps nicely to your data models is compelling, but can apparently cause problems with more complex or highly-trafficed applications.
 
 ## References
 [Object-relational mapping](https://en.wikipedia.org/wiki/Object-relational_mapping) in Wikipedia
+[Object-relational impedance mismatch](https://en.wikipedia.org/wiki/Object-relational_impedance_mismatch) in Wikipedia
+[Object Relational Mapping Costs Time And Money](http://c2.com/cgi/wiki?ObjectRelationalMappingCostsTimeAndMoney)
 [Object-Relational Mapping is the Vietnam of Computer Science](http://blog.codinghorror.com/object-relational-mapping-is-the-vietnam-of-computer-science/)
+[OrmHate](http://martinfowler.com/bliki/OrmHate.html)
