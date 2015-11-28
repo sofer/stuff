@@ -18,4 +18,4 @@ The Ruby on Rails framework famously uses the Active Record ORM. ORMs are widely
 + [Object-relational impedance mismatch](https://en.wikipedia.org/wiki/Object-relational_impedance_mismatch) in Wikipedia
 + [Object Relational Mapping Costs Time And Money](http://c2.com/cgi/wiki?ObjectRelationalMappingCostsTimeAndMoney)
 + [Object-Relational Mapping is the Vietnam of Computer Science](http://blog.codinghorror.com/object-relational-mapping-is-the-vietnam-of-computer-science/)
-[OrmHate](http://martinfowler.com/bliki/OrmHate.html)
++ [OrmHate](http://martinfowler.com/bliki/OrmHate.html)
