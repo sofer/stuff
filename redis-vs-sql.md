@@ -28,6 +28,8 @@ Good for ephemeral storage, e.g. a shopping cart
 Strings, integers, floats, bits, hash, sets, zsets
 
 # References
-[Redis Use Patterns: An Introduction to the SQL Practitioner](https://youtu.be/8Unaug_vmFI)
-[Why and When You Should Use Redis](https://youtu.be/CoQcNgfPYPc)
+
++ [Redis Use Patterns: An Introduction to the SQL Practitioner](https://youtu.be/8Unaug_vmFI)
++ [Why and When You Should Use Redis](https://youtu.be/CoQcNgfPYPc)
++ [Redis and Relational Data](http://liamkaufman.com/blog/2012/06/04/redis-and-relational-data/)
 
