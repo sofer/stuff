@@ -10,6 +10,17 @@
 + Fibonacci: recursive solution
 + Fibonacci: memoised solution
 
+Web stuff:
++ Simple templating
++ API creation
++ Database connectivity
++ Date conversion
++ DOM insertion
++ anything from https://github.com/foundersandcoders/morning-challenge
++ 
+
+
+
 ## Refererences
 
 + [Pair Programming Ping Pong Pattern](http://c2.com/cgi/wiki?PairProgrammingPingPongPattern)
