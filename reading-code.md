@@ -17,7 +17,7 @@ Assuming the code has tests, read through them before looking at the code proper
 5. Use the command line to investigate the code  
 With your questions in mind, use `grep` on the command line to find likely functions, variable names or comments that are suggestive of what you are looking for.
 
-6. Form a reading group
+6. Form a reading group  
 Meet up once a week, agree on a piece of code to read and then discuss it together.
 
 
