@@ -7,7 +7,7 @@ Seriously, don't do it. If you really insist on it, you can usually use hyphens 
 Mixing case in URLs can lead to confusion. Some servers will treat index.html and INDEX.HTML as the same file and some won't. Unix systems treat upper-case and lower-case letters as different characters. In general, keep upper-case letters out of your file names.
 
 ### In general, keep your names short
-There are exceptions to this general rule, for example some news web sites use URLs (and, in the old days, that meant files) that reflect the headlines of their news stories, but keep your file names just long enough to convey meaning, but no longer.
+There are exceptions to this general rule, for example some news web sites use URLs (and, in the old days, that meant files) that reflect the headlines of their news stories. Keep your file names just long enough to convey meaning, but no longer.
 
 ### Make sure you have the right file extension
 In a lot of contexts, the file extension really matters. Expect JavaScript files to end with `.js`, web pages to end with `.html` and markdown files to end with `.md`.
