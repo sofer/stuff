@@ -1,6 +1,7 @@
 # Using databases with Node.js
 
-There are a lot of databases to choose from and there are a lot of choices about how to connect to them. Whichever database you use, you will need some sort of library to get data to and from your data store.
+There are a lot of databases to choose from and there are a lot of choices about how to connect to them. Whichever database you use, you will need some sort of library to get data to and from your data store. If you are getting to know a database for the first time, then just using a simple client librray makes sense. However, if you want to use a library that maps to the data structures in your code, then you might want to look at using an object-relational mapper. The other alternative is to just use
+a database with data structures that closely match the data structures in your code (like Redis).
 
 ### A client library
 
