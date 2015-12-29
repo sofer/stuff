@@ -20,4 +20,11 @@ The shape of the contributions graph and individual contributions tells you a lo
 ### The README
 A well-written README with easy-to-follow usage examples is always a good sign. 
 
+### libraries.io
+Andrew nesbitt has created a fantastic resource called [Libraries.io](https://libraries.io/), that makes it easier to decide on which library to use, by condensing the research tasks above into a single search. 
+
+## References
+
++ [Libraries.io](https://libraries.io/)
+
 
