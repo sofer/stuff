@@ -32,6 +32,8 @@ In ES5:
 [Decomposition] | [Closures] | [Chaining]
 
 ## References
+
++ [What is JavaScript Function Currying?](https://egghead.io/lessons/javascript-what-is-currying) by John Lindquist (video)
 + [John Resig on Partial Application in JavaScript](http://ejohn.org/blog/partial-functions-in-javascript/) *
 + [currying in JavaScript](https://medium.com/@kbrainwave/currying-in-javascript-ce6da2d324fe#.tbfzd4xib)
 + [A Beginner’s Guide to Currying in Functional JavaScript](http://www.sitepoint.com/currying-in-functional-javascript/)
