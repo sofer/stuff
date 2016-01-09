@@ -4,9 +4,9 @@
 *Depth first, breadth first, reverse order...*  
 *guarded recursion*  
 
-"*When you define a list as "any number of items where one comes after the other", you naturally think of iterative operations on lists -- you want to operate on that list with a "for" loop.
+*When you define a list as "any number of items where one comes after the other", you naturally think of iterative operations on lists -- you want to operate on that list with a "for" loop.*
 
-But when you define a list as "either empty, or an item followed by a list" then suddenly it becomes very natural to think recursively.  The operation on the list becomes "solve the empty case, or solve the one-item case and recurse on the tail.""*
+*But when you define a list as "either empty, or an item followed by a list" then suddenly it becomes very natural to think recursively.  The operation on the list becomes "solve the empty case, or solve the one-item case and recurse on the tail."*
 
 + Factorial
 + Fibonacci
@@ -36,3 +36,5 @@ But when you define a list as "either empty, or an item followed by a list" then
 + [Recursion: Solving a Maze](https://www.cs.bu.edu/teaching/alg/maze/)
 + [EXAMPLES OF RECURSION](http://www.sparknotes.com/cs/recursion/examples/problems.html)
 + [Recursive Programming](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Recursions/recursions.html)
++ [Traversing the DOM](http://www.kirupa.com/html5/traversing_the_dom.htm)
++ 
