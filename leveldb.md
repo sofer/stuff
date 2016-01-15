@@ -29,16 +29,22 @@ One key feature that is hard to implement in LevelDB, but is available in forks 
 + [Max Ogden at LXJS 2012: JavaScript Databases!?](https://youtu.be/FDDpEBRGdew) (video)
 + [Rod Vagg  at LXJS 2013: JavaScript Databases 2](https://youtu.be/-vD33vPKcAM) (video)
 
-Also:
+### Also:
 
+**Rocks**  
 + [RocksDB](http://rocksdb.org/)
 + [level-rocksdb](https://github.com/Level/level-rocksdb)
 + [RocksDB: A High Performance Embedded Key-Value Store for Flash Storage - Data@Scale](https://youtu.be/V_C-T5S-w8g) (video)
 + [a Node.js-style RocksDB wrapper](https://github.com/Level/level-rocksdb)
+
+**HyperLevelDB**  
 + [HyperLevelDB](https://github.com/rescrv/HyperLevelDB)
 + [level-hyper](https://github.com/Level/level-hyper)
 
-On backing up:
+**SSDB**  
++ [SSDB](https://github.com/ideawu/ssdb) (*"an alternative to Redis"*)
+
+### On backing up:
 + [How to backup RocksDB?](https://github.com/facebook/rocksdb/wiki/How-to-backup-RocksDB%3F)
 + [HyperDex Question](https://github.com/Level/level-hyper/issues/1)
 
