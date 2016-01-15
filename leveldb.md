@@ -31,11 +31,15 @@ One key feature that is hard to implement in LevelDB, but is available in forks 
 
 ### Also:
 
-**Rocks**  
+**Rocks** (Facebook)  
 + [RocksDB](http://rocksdb.org/)
 + [level-rocksdb](https://github.com/Level/level-rocksdb)
 + [RocksDB: A High Performance Embedded Key-Value Store for Flash Storage - Data@Scale](https://youtu.be/V_C-T5S-w8g) (video)
 + [a Node.js-style RocksDB wrapper](https://github.com/Level/level-rocksdb)
+
+**Riak**  
+[Basho clone of LevelDB](https://github.com/basho/leveldb)
+[Optimizing LevelDB for Performance and Scale - RICON East 2013](https://youtu.be/vo88IdglU_8)
 
 **HyperLevelDB**  
 + [HyperLevelDB](https://github.com/rescrv/HyperLevelDB)
