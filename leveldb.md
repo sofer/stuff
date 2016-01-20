@@ -2,7 +2,7 @@
 
 LevelDB is a key-value store, written by Jeff Dean and  Sanjay Ghemawat at Google. What makes it interesting to Node developers is the LevelUp npm pacakage, which allows LevelDB to be included within a Node application.
 
-A number of contributors have created npm modules that allow LevelDB to be used as the basis for a graph, a relational or a document store. In addition, LevelUp can be used not just with LevelDB, but with other databases, such as RocksDB. 
+A number of contributors have created npm modules that allow LevelDB to be used as the basis for a graph, a relational or a document database. In addition, LevelUp can be used not just with LevelDB, but with other databases, such as RocksDB. 
 
 This approach allows us to create a database for an application that meets our needs, while not forcing us to re-write all the database abstraction layer that an external database usually gives us. It means that we can use a single and very fast data store for a number of different use cases. It also allows us to swap out the data store, if we need to.
 
@@ -38,8 +38,9 @@ One key feature that is hard to implement in LevelDB, but is available in forks 
 + [a Node.js-style RocksDB wrapper](https://github.com/Level/level-rocksdb)
 
 **Riak**  
-[Basho clone of LevelDB](https://github.com/basho/leveldb)
-[Optimizing LevelDB for Performance and Scale - RICON East 2013](https://youtu.be/vo88IdglU_8)
+
++ [Basho clone of LevelDB](https://github.com/basho/leveldb)
++ [Optimizing LevelDB for Performance and Scale - RICON East 2013](https://youtu.be/vo88IdglU_8) (video)
 
 **HyperLevelDB**  
 + [HyperLevelDB](https://github.com/rescrv/HyperLevelDB)
